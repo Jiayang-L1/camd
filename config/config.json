@@ -1,0 +1,54 @@
+{
+  "datasetCommonParams": {
+    "dataset_root_dir": "./dataset",
+    "gofundme": {
+      "featurePath": "gofundme",
+      "train_samples": 11964,
+      "text_dim": 300,
+      "image_dim": 2048,
+      "meta_dim": 22
+    },
+    "indiegogo": {
+      "featurePath": "indiegogo",
+      "train_samples": 11964,
+      "text_dim": 300,
+      "image_dim": 2048,
+      "meta_dim": 41
+    }
+  },
+  "camd": {
+    "commonParams": {
+      "early_stop": 20,
+      "update_epochs": 10,
+      "batch_size": 32,
+      "learning_rate": 0.0001,
+      "patience": 10,
+      "alpha": 0.01,
+      "beta_1": 0.01,
+      "beta_2": 0.1,
+      "grad_clip": 0.6
+    },
+    "datasetParams": {
+      "gofundme": {
+        "modality_dim": 256,
+        "disentangle_dim": 128,
+        "vae_dim": 8,
+        "modality_cross_dim": 256,
+        "modality_cross_head": 2,
+        "meta_cross_dim": 256,
+        "meta_cross_head": 2,
+        "ae_image_dim": 128
+      },
+      "indiegogo": {
+        "modality_dim": 256,
+        "disentangle_dim": 128,
+        "vae_dim": 8,
+        "modality_cross_dim": 256,
+        "modality_cross_head": 2,
+        "meta_cross_dim": 256,
+        "meta_cross_head": 2,
+        "ae_image_dim": 128
+      }
+    }
+  }
+  }
