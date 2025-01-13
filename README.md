@@ -1,6 +1,6 @@
-# Commonality Augmented Disentanglement for Multimodal Crowdfunding Success Prediction
+# Implementation of the CAMD Model
 
-This is the official repository for our paper _Commonality Augmented Disentanglement for Multimodal Crowdfunding Success Prediction_.
+This repo contains the implementation of the CAMD model described in _Commonality Augmented Disentanglement for Multimodal Crowdfunding Success Prediction_.
 
 ## Usage
 
