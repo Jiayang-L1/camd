@@ -10,7 +10,7 @@ This repo contains the implementation of the CAMD model described in _Commonalit
 ## Usage
 
 ### Datasets
-Datasets (GoFundMe and Indiegogo) can be downloaded from [here](https://drive.google.com/drive/folders/1r9qDzzINHkUvH3-urOJyujPJHWbq1IdM), then
+Datasets (GoFundMe and Indiegogo) can be downloaded from [here](https://drive.google.com/drive/folders/1r9qDzzINHkUvH3-urOJyujPJHWbq1IdM) or [here (backup)](https://drive.google.com/drive/folders/1mhKyAhcZao4vwFci4U3ufMsdPUKsLMfX?usp=sharing), then
 put the downloaded datasets (`gofundme_data.pkl` and `indiegogo_data.pkl`) into `./dataset` directory and split it into train, valid and test sets through `python ./dataset/dataset_split.py`.
 
 ### Experiment Running
