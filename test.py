@@ -7,7 +7,7 @@ dataset = 'gofundme'
 
 # If 'mode' is set to "test", a 'model_path' variable is required to specify the path
 # to the pre-trained model that will be used for testing.
-model_path = './pt/xxx.pth'
+model_path = './pt/enter-saved-model-path.pth'
 
 CAMD_run(model_name='camd', dataset_name=dataset, seeds=[1], model_save_dir="./pt", model_path=model_path,
         log_dir="./log", mode='test', gpu_ids=[0]
